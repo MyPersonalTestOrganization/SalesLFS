@@ -323,6 +323,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.СписокНоменклатуры.Цена</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>СписокНоменклатурыЦенаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>СписокНоменклатурыЦенаРасширеннаяПодсказка</name>
         <id>34</id>
