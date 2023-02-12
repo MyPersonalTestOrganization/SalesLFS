@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a92cebe9-4e30-4901-842c-b1cc1d0adc9a">
+  <name>КаркаснаяКонфигурация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каркасная конфигурация</value>
+  </synonym>
+  <comment>Каркасная конфигурация 13.07.2020</comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f5427c47-67c4-43af-82f3-249f218664f1"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="13f5776c-2dd4-4ae4-960e-6f7abc846122"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="dfb9cb43-20e5-472d-9040-f43200d7968f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="4bad4a88-7857-4b14-98c2-a1cac4dc04ee"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="7d661407-b577-41a4-b997-83b8f2bad95d"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="aa49e400-037d-4485-88d4-524bb7885e30"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="ab6b0a42-e6ca-4ddb-b4c5-9696305b8ed3"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>УЦ №1</vendor>
+  <version>1.0.0.3</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Каркасная конфигурация к экзамену</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Каркасная конфигурация для сдачи экзамена &quot;1С:Специалист&quot; по платформе &quot;1С:Предприятие 8&quot;</value>
+  </detailedInformation>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <languages uuid="20b8317c-1c58-4baa-a76a-468fdcd409ff">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonPictures>CommonPicture.БизнесПроцессы</commonPictures>
+  <commonPictures>CommonPicture.БухгалтерскийУчет</commonPictures>
+  <commonPictures>CommonPicture.ОперативныйУчет</commonPictures>
+  <commonPictures>CommonPicture.Расчеты</commonPictures>
+  <commonPictures>CommonPicture.Сервис</commonPictures>
+  <roles>Role.ПолныеПрава</roles>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <documents>Document.НачислениеЗарплаты</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.РасходнаяНакладная</documents>
+  <enums>Enum.ВидыНоменклатуры</enums>
+  <enums>Enum.УчетнаяПолитика</enums>
+  <dataProcessors>DataProcessor.ЗаполнениеГрафика</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
+  <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.РегистрАдресации</informationRegisters>
+  <informationRegisters>InformationRegister.СведенияОСотрудниках</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваОбъектов</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.Управленческий</chartsOfAccounts>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ДополнительныеНачисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.Удержания</chartsOfCalculationTypes>
+</mdclass:Configuration>
